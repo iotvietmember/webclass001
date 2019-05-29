@@ -34,11 +34,11 @@ def main():
 			print('| {} | {} | {} | {} | {} | {} |'.format(row['hoten'], row['namsinh'], row['quequan'], row['thuongtru'], row['nghenghiep'], row['ghichu']))
 
 	# insert
-	# cursor.execute(insert_sql, ('Đỗ Thành Nam', 1987, 'Hưng Yên', 'TPHCM', 'Bộ đội', 'k',))
+	# cursor.execute(insert_sql, ('Nguyen Van A', 1978, 'Hưng Yên', 'TPHCM', 'Sinh vien', 'k',))
 	#......check ket qua
 
 	# update
-	# cursor.execute(update_sql, ('Nam Thành Đỗ', 1987, 'Hưng Yên', 'TPHCM', 'Bộ đội', 'k', 'Đỗ Thành Nam'))
+	# cursor.execute(update_sql, ('A Van Nguyen', 1987, 'Hưng Yên', 'TPHCM', 'Sinh vien', 'k', 'Nguyen Van A'))
 
 	# delete
 	# cursor.execute(delete_sql, (1,)) 

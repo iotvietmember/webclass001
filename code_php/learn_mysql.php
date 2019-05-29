@@ -43,17 +43,17 @@ else {
 }
 
 // Câu SQL thêm bản ghi----------------------------------------------------------
-// $sql = "INSERT INTO $_table(hoten, namsinh, quequan, thuongtru, nghenghiep, ghichu) VALUES ('Do Thanh Nam',1987,'Hung Yen','TPHCM','Bo doi','Khong co ghi chu')";
+// $sql = "INSERT INTO $_table(hoten, namsinh, quequan, thuongtru, nghenghiep, ghichu) VALUES ('Nguyen Van A',1987,'Hung Yen','TPHCM','Sinh vien','Khong co ghi chu')";
 // // Thực thi câu truy vấn và gán vào $result
 // $result = mysqli_query($conn, $sql);
 
 // // Câu SQL sửa bản ghi----------------------------------------------------------
-// $sql = "UPDATE $_table SET hoten='Nam Thành Đỗ' WHERE hoten='Đỗ Thành Nam'";
+// $sql = "UPDATE $_table SET hoten='A  Nguyen Van' WHERE hoten='Nguyen Van A'";
 // // Thực thi câu truy vấn và gán vào $result
 // $result = mysqli_query($conn, $sql);
 
 // Câu SQL xóa bản ghi----------------------------------------------------------
-// $sql = "DELETE * FROM $_table WHERE hoten='Đỗ Thành Nam'";
+// $sql = "DELETE * FROM $_table WHERE hoten='Nguyen Van A'";
 // // Thực thi câu truy vấn và gán vào $result
 // $result = mysqli_query($conn, $sql);
 
@@ -68,7 +68,7 @@ mysqli_close($conn);
 
 
 
-<!-- INSERT INTO `tblinfo`(`hoten`, `namsinh`, `quequan`, `thuongtru`, `nghenghiep`, `ghichu`) VALUES ("Do Thanh Nam",1987,"Hung Yen","TPHCM","Bo doi","Khong co ghi chu") -->
+<!-- INSERT INTO `tblinfo`(`hoten`, `namsinh`, `quequan`, `thuongtru`, `nghenghiep`, `ghichu`) VALUES ("Nguyen Van A",1987,"Hung Yen","TPHCM","Sinh vien","Khong co ghi chu") -->
 
 <!-- UPDATE `tblinfo` SET `hoten`="Nguyễn Văn Quân",`namsinh`=1999,`quequan`="Nam Định",`thuongtru`="TPHCM",`nghenghiep`="Sinh viên",`ghichu`="tq" WHERE namsinh=1999 -->
 
